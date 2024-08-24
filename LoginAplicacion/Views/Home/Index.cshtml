@@ -2,6 +2,13 @@
     ViewBag.Title = "Home Page";
 }
 
+<style>
+    main {
+        background-color: yellow; /* Cambia el fondo a color amarillo */
+        padding: 20px;
+    }
+</style>
+
 <main>
     <section class="row" aria-labelledby="aspnetTitle">
         <h1 id="title">ASP.NET</h1>
@@ -33,7 +40,7 @@
 
     <!-- Botón de Cerrar Sesión -->
     <div class="row mt-4">
-        <div class="col-md-12 text-right">
+        <div class="col-md-12 text-center">
             <a href="@Url.Action("Logout", "Home")" class="btn btn-danger">Cerrar Sesión</a>
         </div>
     </div>
